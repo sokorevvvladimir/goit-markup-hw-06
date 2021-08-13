@@ -703,6 +703,9 @@ p {
 .submit {
   padding: 10px 28px;
   margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .email {
@@ -725,11 +728,6 @@ p {
   justify-content: space-between;
 }
 
-.submit-button-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* Modal window */
 .backdrop {
